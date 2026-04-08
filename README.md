@@ -22,7 +22,7 @@
 <div align="left">
 nuitka编译：
 
-`nuitka --onefile --standalone --windows-console-mode=disable --show-progress --lto=yes --jobs=4 --enable-plugins=pyqt6 --include-data-dir=./ui=./ui charmap-ng.py`
+`nuitka --onefile --standalone --windows-console-mode=disable  --windows-icon-from-ico=./ui/charmap.ico --show-progress --lto=yes --jobs=4 --enable-plugins=pyqt6 --include-data-dir=./ui=./ui charmap-ng.py`
 
 
 # <div align="left"> 开源许可 <div>
