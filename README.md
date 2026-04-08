@@ -14,11 +14,16 @@
 <div align="center"> <img width="276" height="346" alt="2026-04-08_225844" src="https://github.com/user-attachments/assets/7d60e99e-08ce-4922-993e-be4f23e7317d" /> <img width="274" height="350" alt="截图_charamap-ng py_20260408230903" src="https://github.com/user-attachments/assets/551b295d-29e7-41be-a820-14593d086771" /> <div>
 
 # <div align="left"> 编译 <div>
+<div align="left">
 老规矩，pip安装下列模块：
+
 `pip3 install pyqt6 nuitka`
 
+<div align="left">
 nuitka编译：
+
 `nuitka --onefile --standalone --windows-console-mode=disable --show-progress --lto=yes --jobs=4 --enable-plugins=pyqt6 --include-data-dir=./ui=./ui charmap-ng.py`
 
+
 # <div align="left"> 开源许可 <div>
-本软件以GPLv3许可证开源
+<div align="left"> 本软件以GPLv3许可证开源 <div>
